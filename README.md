@@ -1,71 +1,49 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<h1>projeto-dennis</h1>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+> Sistema web para gerenciamento de funcionários e produção mensal
 
-## About Laravel
+### Projeto desenvolvido para uma fábrica de peças de roupas femininas, com foco no gerenciamento da produção de funcionários de maneira ágil. 👖
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Funcionalidades 📝
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Cadastro de itens de produção
+- Cadastro de funcionários
+- Realização de cálculos e atribuição aos funcionários
+- Acompanhamento da produção mensal e fluxo de caixa através de tabelas
+- Exportação de PDFs
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+> Conheça Dennis
 
-## Learning Laravel
+![Capturar](https://github.com/user-attachments/assets/66a38cc8-c631-4d42-ae9a-2ea76cb36380)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Esta é a página inicial, onde o usuário pode ver algumas estatísticas e informações.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Página de realização dos cálculos
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+![calculos](https://github.com/user-attachments/assets/ed92cee0-ff75-42a7-bcb6-6c9cccbee418)
 
-## Laravel Sponsors
+Aqui encontra-se uma das funcionalidades mais importantes do Dennis, a realização de cálculos.
+Através da biblioteca PHP Laracart, foi possível implementar a funcionalidade de criar e registrar cálculos de maneira rápida e simples.
+> Tudo isso integrado com os funcionários e itens cadastrados! 🔥
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### Página de preços
 
-### Premium Partners
+![precos](https://github.com/user-attachments/assets/9c806011-c7c5-4141-a33e-cb16c97def50)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Os preços são necessários para que o usuário possa realizar os cálculos. Dessa maneira, desenvolvi uma maneira de adicioná-los e visualizar de maneira clara, através de uma tabela.
 
-## Contributing
+### Página de estatísticas
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![estatisticas](https://github.com/user-attachments/assets/fff6101e-8a94-49cc-a982-34ab48a53744)
 
-## Code of Conduct
+Aqui o usuário pode consultar o fluxo de caixa de sua empresa na forma de gráficos 📊
+As tabelas fornecem informações valiosas na administração do negócio.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Página de funcionários
 
-## Security Vulnerabilities
+![funcionarios](https://github.com/user-attachments/assets/155477d4-0418-4ea2-9a58-9fb03fce82df)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Os funcionários são apresentados nessa página. É possível também ver os detalhes de cada funcionário ao clicar sobre o mesmo.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# dennis
-Sistema Web Dennis para gerenciamento de fábricas de costura
->>>>>>> dc581b056ca7920c2018d791ddbc153012f1a20c
+Extra: exportar pdfs
