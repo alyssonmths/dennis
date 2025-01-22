@@ -1,0 +1,60 @@
+section#calculos {
+    margin: 20px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#precos {
+    width: 85vw;
+    margin: 15px 0px;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.card {
+    padding: 0px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: #2b95eb4d;
+}
+
+p {
+    margin: 0px;
+}
+
+#detalhesCalculo > div:nth-child(1) {
+    border-top: 1px solid rgb(44, 146, 177);
+}
+
+#detalhesCalculo > div {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(44, 146, 177);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button[type='submit'] {
+    width: 25%;
+    min-width: 200px;
+}
+button[data-bs-toggle="offcanvas"] {
+    width: 100%;
+    max-width: 450px;
+}

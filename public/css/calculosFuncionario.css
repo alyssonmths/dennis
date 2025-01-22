@@ -1,0 +1,43 @@
+p {
+    margin: 0px;
+}
+
+#detalhes-funcionario {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+}
+
+#detalhes-funcionario img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+div#estatisticas {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+div#estatisticas img {
+    width: 100%;
+    max-width: 500px;
+}
+
+#ultimos_pagamentos > a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 5px;
+}
+
+#ultimos_pagamentos > a:hover {
+    background-color: aliceblue;
+}
+
+.offcanvas .card-body > div {
+    margin: 10px 0px;
+}

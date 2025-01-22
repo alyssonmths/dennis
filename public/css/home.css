@@ -1,0 +1,57 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.styled-table {
+    width: 60%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table thead tr {
+    background-color: #2b95eb;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #2b95eb;
+}
+
+#despesas {
+    list-style-type: none;
+    padding: 0px;
+    width: 40%;
+}
+
+#despesas > li {
+    padding: 10px;
+    text-align: center;
+}
+
+#despesas > li:nth-of-type(even) {
+    background-color: #2b95eb3d;
+}

@@ -1,0 +1,55 @@
+.table-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.styled-table {
+    width: 70%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table thead tr {
+    background-color: #2b95eb;
+    color: #ffffff;
+    text-align: center;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #2b95eb;
+}
+
+section#pagamentos {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+#pendentes p {
+    margin: 0px;
+}
+
+#pendentes > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#pendentes span {
+    font-weight: bold;
+}
