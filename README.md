@@ -45,5 +45,20 @@ As tabelas fornecem informações valiosas na administração do negócio.
 
 Os funcionários são apresentados nessa página. É possível também ver os detalhes de cada funcionário ao clicar sobre o mesmo.
 
+# Diferencial do projeto
+<strong>Geração de relatórios em PDF dos funcionários, tabela de preços e dos cálculos. Para isso, foi usada a famosa biblioteca DomPDF</strong>
 
-Extra: exportar pdfs
+![pdf](https://github.com/user-attachments/assets/dc4bdb6e-0950-46cc-a852-044eff8c3e1c)
+
+## E aí, gostou de conhecer o Dennis? Agora vamos para algumas informações mais técnicas:
+
+🛠️ Tecnologias e Ferramentas
+- PHP com Laravel: Framework para desenvolvimento do back-end.
+- JavaScript com jQuery: Utilizado para realizar requisições de CRUD.
+- Bootstrap: Para estilização e responsividade.
+
+📊 Bibliotecas Utilizadas
+- Chart.js: Geração de gráficos detalhados sobre os pagamentos e fluxo de caixa.
+- DataTables: Funcionalidades de ordenação e paginação em tabelas, facilitando a navegação e consulta dos dados.
+- DomPDF: Geração de relatórios em PDF, permitindo fácil compartilhamento e armazenamento.
+- Laracart: Gerenciamento de dados de cálculo, como quantidade, valor unitário, e detalhes do produto.
